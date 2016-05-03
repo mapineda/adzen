@@ -29,7 +29,7 @@ body {
 
 /*JUMBOTRON IMG*/
 .jumbotron{
-    background: url("http://yogatrainingguide.com/wp-content/uploads/2012/03/greece-yoga-teacher-training.png") no-repeat center center;
+    background: url("./mountain-yoga.jpg") no-repeat center center;
     -webkit-background-size: 100% 100%;
     -moz-background-size: 100% 100%;
     -o-background-size: 100% 100%;
@@ -38,6 +38,13 @@ body {
 
 .push-spaces {
   height: 200px;
+}
+
+/*BUTTONS */
+
+.btn {
+  margin: 2px;
+
 }
 
 

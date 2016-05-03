@@ -1,3 +1,4 @@
+
 html, body {
   box-sizing: border-box;
 }
@@ -15,7 +16,9 @@ body {
 
 .navbar-toggle {
    margin: 23px 0;
+   margin-right: 15px;
 }
+
 
 .navbar-nav, .navbar-nav li, .navbar-nav li a {
   height: 80px;
@@ -27,8 +30,13 @@ body {
   padding-bottom:0;
 }
 
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    background-color: #3d7;
+    color: #FFFFFF;
+}
+
 /*JUMBOTRON IMG*/
-.jumbotron{
+.jumbotron {
     background: url("./mountain-yoga.jpg") no-repeat center center;
     -webkit-background-size: 100% 100%;
     -moz-background-size: 100% 100%;
@@ -40,13 +48,25 @@ body {
   height: 200px;
 }
 
-/*BUTTONS */
+/*BUTTONS*/
 
 .btn {
   margin: 2px;
 
 }
 
+#description {
+  margin-top: 50px;
+  height: 100px;
+}
+
+/*TAGLINE */
+.tagline {
+  font-family: 'Lustria', serif;
+}
+
+
+/*FOOTER*/
 
 /*MEDIA QUIERIES */
 
@@ -56,7 +76,7 @@ body {
     }
 
     .navbar-brand img {
-        margin-top: 5px;
-        margin-left: 5px;
+        margin-top: 15px;
+        margin-left: 10px;
     }
 }

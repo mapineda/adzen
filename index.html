@@ -3,15 +3,75 @@
   <head>
     <meta charset="UTF-8">
     <title>Adzen</title>
+    <!-- mobile meta tag no scalability  -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" media="screen" title="no title" charset="utf-8">
+    <link rel="stylesheet" href="./main.css" media="screen" title="no title" charset="utf-8">
   </head>
   <body>
     <!-- nav bar  -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse"
+                        data-target="#bs-example-navbar-collapse-1">
+
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+
+                </button>
+                <a class="navbar-brand" href="#">
+                  <img class="hidden-xs" src="http://placehold.it/150x50&text=Logo" alt="">
+                  <img class="visible-xs" src="http://placehold.it/120x40&text=Logo" alt="">
+                    <!-- <img class='hidden-xs' src="http://solenstudio.com/img/spiral-logo.png" alt="">
+                    <img class='visible-xs' src="http://www.clipartbest.com/cliparts/aiq/eG9/aiqeG9byT.png" alt=""> -->
+                </a>
+            </div>
+
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#">Retreats</a></li>
+                    <li><a href="#">Classes</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
 
     <!-- jumbo img -->
-      <!-- btns -->
+    <div class=jumbotron>
+      <img src='http://yogacollectivemanly.com/wp-content/uploads/2015/05/Yoga.jpg'>
+
+    </div>
+
+    <div class='container'>
+      <div class="btn-group-lg" role="group" aria-label="...">
+        <button type="button" class="btn btn-primary">Find out More</button>
+        <button type="button" class="btn btn-warning">Book Your Retreat Now</button>
+      </div>
+      <div>
+        <h3>TEXT</h3>
+        <p>Description</p>
+      </div>
+
+
+    </div>
+
 
 
     <!-- footer  -->
+    <footer>
+
+    </footer>
+
     <!-- scripts -->
+    <script src="https://code.jquery.com/jquery-1.12.3.min.js" integrity="sha256-aaODHAgvwQW1bFOGXMeX+pC4PZIPsvn2h1sArYOhgXQ=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+
   </body>
 </html>

@@ -1,0 +1,50 @@
+html, body {
+  box-sizing: border-box;
+}
+
+body {
+    margin-top: 125px;
+}
+
+/*NAVBAR */
+
+.navbar-fixed-top .nav {
+    padding: 15px 0;
+}
+
+
+.navbar-toggle {
+   margin: 23px 0;
+}
+
+.navbar-nav, .navbar-nav li, .navbar-nav li a {
+  height: 80px;
+  line-height: 80px;
+}
+
+.navbar-nav li a {
+  padding-top: 0;
+  padding-bottom:0;
+}
+
+/*JUMBOTRON IMG*/
+
+.jumbotron {
+  margin: 0;
+  margin-bottom: 15px;
+  padding: 2px;
+  border: none;
+}
+
+/*MEDIA QUIERIES */
+
+@media (max-width: 767px) {
+    .navbar-brand {
+        padding: 0;
+    }
+
+    .navbar-brand img {
+        margin-top: 5px;
+        margin-left: 5px;
+    }
+}

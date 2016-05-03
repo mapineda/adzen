@@ -28,13 +28,18 @@ body {
 }
 
 /*JUMBOTRON IMG*/
-
-.jumbotron {
-  margin: 0;
-  margin-bottom: 15px;
-  padding: 2px;
-  border: none;
+.jumbotron{
+    background: url("http://yogatrainingguide.com/wp-content/uploads/2012/03/greece-yoga-teacher-training.png") no-repeat center center;
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    background-size: 100% 100%;
 }
+
+.push-spaces {
+  height: 200px;
+}
+
 
 /*MEDIA QUIERIES */
 
